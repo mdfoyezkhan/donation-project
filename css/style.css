@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+/* main nav bar style here */
+.nav-main{
+    display: flex;
+    justify-content: center;
+}
+/* main nav bar style end here */
+/* nav bar .nav-items style here */
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:10px 100px 20px 100px;
+    background: #F9F7F3;
+    align-items: center;
+
+}
+/* nav bar .nav-items style end here */
+/* blog btn style here */
+.Blog-btn{
+    padding: 10px 30px;
+    background: #B4F461;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.Blog-btn:hover{
+    background: #a9ce84;
+    transition: .3s;
+}
+/* blog btn style end here */
+/* nav logo style here */
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-transform: capitalize;
+}
+/* nav logo style end here */
+/* balance box style here */
+.balance-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.balance-box span{
+    color: #4e4c4c;
+}
+/* balance box style end here */
