@@ -1,12 +1,13 @@
- *{
-    /* font-family: "Lexend", sans-serif; */
- }
+
  body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
    
     
+}
+.main-box{
+    position: relative;
 }
 /* main nav bar style here */
 .nav-main{
@@ -80,7 +81,7 @@
     text-transform: capitalize;
     cursor: pointer;
 }
-.dona-and-his button:first-child{
+.bgcolor{
     background: #B4F461;
 }
 /* donation and history btn wrappe style end here */
@@ -136,8 +137,6 @@
     border-radius: 5px;
     font-family: "Lexend", sans-serif;
 }
-
-
 .card-price{
      font-family: "Lexend", sans-serif;
     display: flex;
@@ -150,3 +149,72 @@
    border-radius: 10px;
 }
 /* donation news box wrapper style end here */
+
+/* blog page accordion section style here */
+.accordion-section{
+    padding: 20px 200px;
+}
+/* blog page accordion section style end here */
+/* modal section style here */
+
+/* modal section style end here */
+
+.modal-section{
+   position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 101;
+    background: rgba(91, 91, 91, 0.519);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.successfull-alart{
+    width: 500px;
+    padding: 20px;
+    background:white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Lexend", sans-serif;
+    border-radius: 10px;
+    line-height: 50px;
+    
+}
+.successfull-alart h1{
+    font-size: 35px;
+}
+
+.successfull-alart p{
+    font-size: larger;
+    color: #5e5e5e;
+}
+.successfull-alart h3{
+    font-size: x-large;
+    color: #333333;
+}
+.successfull-alart img{
+    /* margin: auto; */
+    margin: 10px auto;
+}
+.close-btn{
+    font-family: "Lexend", sans-serif;
+    padding: 5px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #232323;
+    transition:.3s;
+    cursor: pointer;
+    background: #d9d8d8;
+}
+.close-btn:hover{
+    background: #cbcaca;
+}
+/* history section style here */
+.history-section{
+    padding: 20px 200px;
+}
+/* history section style end here */
